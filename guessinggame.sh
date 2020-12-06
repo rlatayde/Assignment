@@ -18,11 +18,11 @@ question
 
 while [[ $guess -ne $filescount ]]
 do
-	if [[ $guess -lt $filescount ]] 
+	if [[ $guess -gt $filescount ]] 
 	then
-		echo "Your guesse is Too low! Try again.."
+		echo "Your guesse is Too High! Try again.."
 	else
-		echo "Your guesse is Too high! try again.."
+		echo "Your guesse is Too Low! try again.."
 	fi
 	question
 done
