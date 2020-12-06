@@ -1,4 +1,4 @@
-## guessinggame.sh for Coursera/JHU's The Unix Workbench course
+## The Unix Workbench Course Assignment
 
 **Run Date:** Sun Dec 6 20:50:47 TAIST 2020
 
