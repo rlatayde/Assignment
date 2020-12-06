@@ -11,14 +11,14 @@ filescount=$(ls -1 | wc -l)
 function question 
 {
 	echo "Kindly guesse how many number of files in the current directory: "
-	read guess
+	read answer
 }
 
 question
 
-while [[ $guess -ne $filescount ]]
+while [[ $answer -ne $filescount ]]
 do
-	if [[ $guess -gt $filescount ]] 
+	if [[ $answer -gt $filescount ]] 
 	then
 		echo "Your guesse is Too High! Try again.."
 	else
@@ -26,4 +26,4 @@ do
 	fi
 	question
 done
-echo "Congrats! You guessed correct number of files!"
+echo "Congrats! You guessed the correct number of files!"
